@@ -1,0 +1,75 @@
+#heading {
+    font-weight: bold;
+}
+
+.main-heading {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #000000;
+    font-size: 20px;
+}
+
+table,
+tr,
+td {
+    border: 1px solid rgb(91, 3, 174);
+    border-collapse: collapse;
+}
+
+table {
+    margin: auto;
+}
+
+#expense-table {
+    margin-top: 50px;
+    border-width: 3px;
+    border-style: double;
+    border-color: rgb(91, 3, 174);
+    height: 150px;
+    width: 800px;
+    background-color: rgba(211, 211, 211, 0.32);
+}
+
+#main-row {
+    background-color: rgba(128, 128, 128, 0.65);
+}
+
+tr,
+td {
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(91, 3, 174);
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: rgb(91, 3, 174);
+}
+
+.myt1 {
+    width: 75px;
+    border-radius: 10px;
+    border-width: 3px;
+    padding: 3px;
+    background-color: #F0B5FF;
+    transition: width 0.75s;
+    font-size: 16px;
+}
+
+#dd {
+    width: 40px;
+    border-radius: 8px;
+    background-color: #E8D9EC;
+    transition: background-color 0.5s;
+}
+
+.myt1:hover {
+    background-color: #B387BF;
+    width: 85px;
+}
+
+#dd:hover {
+    background-color: #D0BFD4;
+}
